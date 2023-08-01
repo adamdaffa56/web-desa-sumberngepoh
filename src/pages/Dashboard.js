@@ -115,7 +115,7 @@ const Dashboard = () => {
             <h1>Desa Sumberngepoh</h1>
           </div>
           <div className="flex justify-between gap-44 ">
-            <p className="w-3/5 text-xl">{desa.tentang_desa}</p>
+            <p className="w-3/5 text-xl text-justify indent-16">{desa.tentang_desa}</p>
             <div className="w-2/5 h-full">
               <img
                 src={about}
