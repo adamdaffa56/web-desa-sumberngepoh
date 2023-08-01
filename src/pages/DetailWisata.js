@@ -44,7 +44,7 @@ const DetailWisata = () => {
             <h2 className="text-[26px]">Jam Buka : {detail.jam_buka}</h2>
             <h2 className="text-[26px]">Harga Tutup : {detail.jam_tutup}</h2>
             <hr />
-            <p className="text-[22px]">Deskripsi : {detail.deskripsi}</p>
+            <p className="text-[22px] text-justify indent-16">{detail.deskripsi}</p>
           </div>
         </div>
       </section>

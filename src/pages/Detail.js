@@ -42,7 +42,7 @@ const Detail = () => {
             <h1 className="font-semibold text-[44px]">{detail.tentang_desa}</h1>
             <h2 className="text-[26px]">Tanggal : {detail.tanggal}</h2>
             <hr />
-            <p className="text-[22px]">Deskripsi : {detail.deskripsi}</p>
+            <p className="text-[22px] text-justify indent-16">{detail.deskripsi}</p>
           </div>
         </div>
       </section>
