@@ -20,10 +20,10 @@ const Navbar = () => {
             <Link to="/">Beranda</Link>
           </div>
           <div className="hover:border-b border-primary duration-300 hover:font-medium">
-            <Link>Sekilas</Link>
+            <Link to="/">Sekilas</Link>
           </div>
           <div className="hover:border-b border-primary duration-300 hover:font-medium">
-            <Link>Visi Misi</Link>
+            <Link to="/">Visi Misi</Link>
           </div>
           <div className="hover:border-b border-primary duration-300 hover:font-medium">
             <Link to="/informasi">Informasi</Link>

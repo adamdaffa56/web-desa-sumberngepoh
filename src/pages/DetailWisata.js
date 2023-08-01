@@ -40,9 +40,9 @@ const DetailWisata = () => {
             <h1 className="font-semibold text-[44px]">{detail.nama}</h1>
             <h2 className="text-[26px]">Alamat : {detail.alamat}</h2>
             <h2 className="text-[26px]">Kontak : {detail.kontak}</h2>
-            <h2 className="text-[26px]">Harga Tiket : {detail.harga_tiket}</h2>
-            <h2 className="text-[26px]">Jam Buka : {detail.jam_buka}</h2>
-            <h2 className="text-[26px]">Harga Tutup : {detail.jam_tutup}</h2>
+            <h2 className="text-[26px]">Harga Tiket : Rp. {detail.harga_tiket}</h2>
+            <h2 className="text-[26px]">Jam Buka : {detail.jam_buka} - {detail.jam_tutup}</h2>
+            {/* <h2 className="text-[26px]">Jam Tutup : {detail.jam_tutup}</h2> */}
             <hr />
             <p className="text-[22px] text-justify indent-16">{detail.deskripsi}</p>
           </div>
