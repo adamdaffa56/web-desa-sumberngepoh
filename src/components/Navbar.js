@@ -14,7 +14,7 @@ const Navbar = () => {
                 className="w-fll h-full object-cover object-center"
               />
             </div>
-            <Link>Desa Sumberngepoh</Link>
+            <Link to="/">Desa Sumberngepoh</Link>
           </div>
           <div className="hover:border-b border-primary duration-300 hover:font-medium">
             <Link to="/">Beranda</Link>
